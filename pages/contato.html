@@ -1,0 +1,111 @@
+<!-------------------------------------------- PROZ - Projeto Integrador -------------------------------------------->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto&display=swap" rel="stylesheet">
+    <script src="/assets/script.js" defer></script>
+    <title>EcoCity</title>
+</head>
+
+<body>
+    <div id="inicio"></div>
+    <header class="cabecalho">
+        <div class="cabecalho_logo_box">
+            <a class="cabecalho_logo_box_img" href="/index.html"><img class="cabecalho_logo_box_img" src="/assets/img/logo_ecocity.png" alt="logo_ecocity"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/pages/cidades.html">Cidades</a>
+                </li>
+                <li>
+                    <a href="/pages/energia.html">Energia</a>
+                </li>
+                <li>
+                    <a href="/pages/empresas.html">Empresas</a>
+                </li>
+                <li>
+                    <a>Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="cabecalho2">
+    </section>
+
+    <main class="contato" id="contato">        
+        <section class="contato-form">
+            <form action="" method="post">
+                <h1 class="contato-form-titulo">ENTRE EM CONTATO</h1>
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                <p id="nome-helper" class="helper-text">Mensagem de ajuda</p>              
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>  
+
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" name="tel" placeholder="Digite seu telefone">
+                <p id="tel-helper" class="helper-text">Mensagem de ajuda</p>  
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Digite sua mensagem"></textarea>
+                <p id="message-helper" class="helper-text">Mensagem de ajuda</p>  
+
+                <input type="submit" id="enviar" value="Enviar">
+                <input type="reset" id="limpar" value="Limpar">
+            </form>
+        </section>
+    
+        <section class="contato-info">
+            <ul class="contato-info-nav">
+                <li class="contato-info-nav-icones">
+                    <img src="/assets/img/icone_email.png" alt="icone email">
+                    <p>ecocity@org.br</p>
+                </li>
+                <li class="contato-info-nav-icones">
+                    <img src="/assets/img/icone_local.png" alt="icone local">
+                    <p>São Paulo - SP</p>
+                </li>
+                <li class="contato-info-nav-icones">
+                    <img src="/assets/img/icone_telefone.png" alt="icone telefone">
+                    <p>+55 11 9999-9999</p>
+                </li>
+            </ul>
+            <ul class="contato-info-social">
+                <li class="contato-info-social-links">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="/assets/img/logo_facebook.png" alt="logo do facebook"></a>
+                </li>
+                <li class="contato-info-social-links">
+                    <a href="https://www.twitter.com/" target="_blank"><img src="/assets/img/logo_twitter.png" alt="logo do youtube"></a>
+                </li>
+                <li class="contato-info-social-links">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="/assets/img/logo_instagram.png" alt="logo do instagram"></a>
+                </li>
+                <li class="contato-info-social-links">
+                    <a href="https://www.youtube.com/" target="_blank"><img src="/assets/img/logo_youtube.png" alt="logo do youtube"></a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Copyright: ecocity.com</p>
+    </footer>
+
+</body>
+</html>
